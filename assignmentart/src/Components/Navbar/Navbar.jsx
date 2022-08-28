@@ -5,8 +5,6 @@ import { AiOutlineUser } from 'react-icons/ai';
 
 function Navbar() {
   return (
-    <>
-    
     <div className='navbar-section-nv'>
 
        <div className='logo-name-class-header'>
@@ -14,8 +12,9 @@ function Navbar() {
         <div className='header-logo-name'><span style={{color: "#FFC300"}}>E -</span> <p>Shop</p></div>
 
     </div>
+    <div className='flex-section'>
     <div className='navbar-mid-section'>
-        <div>
+        <div >
             Man
         </div>
         <div>
@@ -24,6 +23,7 @@ function Navbar() {
         <div>
             Kids
         </div>
+    </div>
     </div>
     <div className='navbar-icon-section'>
         <div>
@@ -37,8 +37,7 @@ function Navbar() {
         </div>
     </div>
     </div>
-
-    </>
+ 
   )
 }
 

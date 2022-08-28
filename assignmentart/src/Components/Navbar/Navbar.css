@@ -6,16 +6,17 @@
     font-weight: 400;
 }
 .navbar-section-nv{
-    display: flex;
-    align-items: center;
+    display: flex; 
     justify-content: space-around;
+    align-items: center;
 }
 .logo-name-class-header{
   display: flex; 
+  width: 10%;
   align-items: center;
 }
 .logo-img{
-    width: 3%;
+    width: 25%;
     height: auto;
 }
 .header-logo-name{
@@ -23,11 +24,14 @@
 }
 .navbar-mid-section{
     display: flex;
-    justify-content: space-between;
+    gap: 5rem;
+   
 
     
 }
 .navbar-icon-section{
     display: flex;
     justify-content: space-between;  
+    gap: 2rem;
+    font-size: 1.2rem;
 }
