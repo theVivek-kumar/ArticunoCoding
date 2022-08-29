@@ -40,15 +40,15 @@ function Yourcart() {
                 </p>
             </div>
         </div>
-        <div>
+        <div className='flex-row margine '>
             <p>Total price</p>
             <p>$ 154.89</p>
         </div>
-        <div className='fles-row'>
-            <div><BsTruck/>
+        <div className='flex-row margine '>
+            <div className='icon'>< BsTruck/></div>
             <p>You are $30.02 away 
                 </p>
-                <p>from shipping</p></div>
+                <p>from shipping</p>
             
         </div>
     </div>
