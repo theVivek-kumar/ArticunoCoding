@@ -8,11 +8,9 @@
     gap:2rem;
     margin-bottom: 3rem;
 }
-.payment-style {
-    /* background-color: rgb(0, 255, 170); */
-}
+
 .Payment-img-styl{
-    border: 1px solid black;
+    border: 1px solid rgb(78, 78, 78);
     border-radius: 27px; 
     display: flex;
     height: 4rem;

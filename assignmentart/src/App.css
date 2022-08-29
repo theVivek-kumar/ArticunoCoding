@@ -63,6 +63,10 @@
   gap: var(--xs);
 }
 
+.font-size{
+  font-size: var(--ms);
+  font-weight: 500;
+}
 .pad-xl{
   padding: 4rem;
 }

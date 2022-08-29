@@ -10,7 +10,7 @@ function Payment() {
         <div className='margine-top'>
         <div className='flex-row-img'>
            
-            <div className='Payment-img-styl'><img  src="./Images/paypal.svg" alt="" /> </div> 
+            <div className='Payment-img-styl gray'><img  src="./Images/paypal.svg" alt="" /> </div> 
             <div className='Payment-img-styl'>
             <img className='img-styl' src="./Images/mastercard.svg" alt="" /></div>
             <div  className='Payment-img-styl'><img className='img-styl' src="./Images/visa-credit-card.png" alt="" /></div>
@@ -29,14 +29,14 @@ function Payment() {
            
              
             <div className='Payment-img-styl flex'>
-            <img className='img-styl' src="./Images/mastercard.svg" alt="" /> <p>$20.00</p></div>
-            <div  className='Payment-img-styl flex'><img className='img-styl' src="./Images/visa-credit-card.png" alt="" /> <p>$10.00</p></div>
+            <img className='img-styl' src="./Images/mastercard.svg" alt="" /> <p className='font-size'>$20.00</p></div>
+            <div  className='Payment-img-styl flex'><img className='img-styl' src="./Images/visa-credit-card.png" alt="" /> <p className='font-size'>$10.00</p></div>
            
         </div>
         <div className='flex-row-img'>
           
-            <div  className='Payment-img-styl flex'><img className='img-styl'src="./Images/payment.png" alt="" /><p>$20.00</p></div>
-            <div  className='Payment-img-styl flex'><img className='img-styl'src="./Images/ideal.png" alt="" /><p>$15.00</p></div>
+            <div  className='Payment-img-styl flex gray'><img className='img-styl'src="./Images/payment.png" alt="" /><p className='font-size'>$20.00</p></div>
+            <div  className='Payment-img-styl flex'><img className='img-styl'src="./Images/fedex.png" alt="" /><p className='font-size'>$15.00</p></div>
         </div>
         </div>
        
