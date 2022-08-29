@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineSearch } from 'react-icons/ai';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
+import '../Navbar/Navbar.css';
 
 function Navbar() {
   return (

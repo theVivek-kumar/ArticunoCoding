@@ -1,0 +1,42 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.Login-container-flex-flow{
+    margin-top: 8rem;
+    margin-left: 10rem;
+
+}
+.info-container{
+    margin-top: 3rem;
+    font-size: var(--md);
+    font-weight: 600;
+}
+.secondry-heading{
+    font-size: var(--ms);
+    font-weight: 500;
+}
+.login-btn {
+    display: flex;
+    margin-top: 3rem;
+   
+}
+.btn-login{
+    background-color: var(--GREEN);
+    border: none;
+    padding: 1rem;
+    color: var(--WHITE);
+    border-radius: 27px;
+    width: 10rem;
+    font-size: var(--ms);
+    margin: 1rem;
+}
+.btn-Sigin{
+    background-color: var(--GRAY);
+    border: 1px thin solid var(--DARK-GRAY);
+    padding: .8rem;
+    color: var(--DARK-GRAY);
+    border-radius: 27px;
+    width: 10rem;
+    margin: 1rem;
+
+}
