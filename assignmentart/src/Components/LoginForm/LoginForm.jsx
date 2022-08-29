@@ -19,7 +19,7 @@ function LoginForm() {
     <form>
        <div>
     <input
-         
+          
           type="email"
           className="signup-input"
           placeholder="Email"
@@ -75,9 +75,9 @@ function LoginForm() {
        />
 
        </div>
-       <p>
-        <AiOutlineArrowLeft/>Back
-       </p>
+       <button className='back-btn'>
+        <AiOutlineArrowLeft/><p>Back</p>
+       </button>
         
    </form> 
    </div>
