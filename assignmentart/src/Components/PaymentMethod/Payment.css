@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+.Payment-img-styl{
+background-color: blue;
+
+}
+img{
+    width: 10%;
+    height: auto;
+}

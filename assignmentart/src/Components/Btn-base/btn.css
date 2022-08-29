@@ -1,0 +1,27 @@
+.margine{
+    margin-top: 5rem;
+}
+.flex-btn-flow{
+    display: flex;
+    gap: 3rem;
+}
+.flex-row-cls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-secondaty{
+    border: 1px solid var(--DARK-GRAY);
+    border-radius: 27px;
+    padding: var(--md);
+    background-color: var(--WHITE);
+}
+.btn-primary{
+    background-color: var(--GREEN);
+    border-radius: 27px;
+    padding: var(--md);
+    color: var(--WHITE);
+    border: none
+    ;
+
+}

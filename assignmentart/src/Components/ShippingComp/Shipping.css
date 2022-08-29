@@ -1,0 +1,40 @@
+.container-shipping{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.info-container{
+    align-items: center;
+    justify-content: center;
+}
+.flex-row-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-row-sp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.icon{
+    gap: 8rem;
+    font-size: var(--lg);
+}
+.icon-fill{
+    border: 1px solid var( --DARK-GRAY);
+    border-radius: 100%;
+    padding: .5rem;
+    background-color: var(--GREEN);
+    color: var(--WHITE);
+    border: none;
+}
+.icon-line{
+    border: 1px solid var(--GREEN);
+    border-radius: 100%;
+    padding: .5rem;
+    color: var(--GREEN);
+
+}

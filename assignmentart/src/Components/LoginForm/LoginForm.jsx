@@ -5,9 +5,9 @@ function LoginForm() {
   return (
    <>
     <div className='Login-container-flex-flow'>
-        <p className='info-container'>
+        {/* <p className='info-container'>
             Shipping and payment
-        </p>
+        </p> */}
     
     <div className='login-btn btn'>
         <button className='btn-login'>LOG IN</button>
@@ -75,9 +75,9 @@ function LoginForm() {
        />
 
        </div>
-       <button className='back-btn'>
+       {/* <button className='back-btn'>
         <AiOutlineArrowLeft/><p>Back</p>
-       </button>
+       </button> */}
         
    </form> 
    </div>

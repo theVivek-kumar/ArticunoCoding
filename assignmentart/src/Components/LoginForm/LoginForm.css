@@ -1,11 +1,11 @@
 *{
     margin: 0; padding: 0; box-sizing: border-box;
 }
-.Login-container-flex-flow{
-    margin-top: 8rem;
-    margin-left: 10rem;
+/* .Login-container-flex-flow{
+   
+      margin-left: 20rem;
 
-}
+} */
 .info-container{
     margin-top: 3rem;
     font-size: var(--md);
@@ -53,4 +53,5 @@
     display: flex;
     gap: 4px;
     margin: 1rem;
+    background-color: var(--WHITE);
 }

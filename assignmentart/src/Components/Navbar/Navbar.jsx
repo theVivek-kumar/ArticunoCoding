@@ -7,10 +7,11 @@ import '../Navbar/Navbar.css';
 function Navbar() {
   return (
     <div className='navbar-section-nv'>
+        <div className='navbar-content-style'>
 
        <div className='logo-name-class-header'>
         <img className='logo-img' src='./Images/logo.png'/>
-        <div className='header-logo-name'><span style={{color: "#FFC300"}}>E -</span> <p>Shop</p></div>
+        <div className='header-logo-name'><span style={{color: "#FFC300"}}>E-</span> <p>Shop</p></div>
 
     </div>
     <div className='flex-section'>
@@ -36,6 +37,7 @@ function Navbar() {
         <div>
             <AiOutlineUser/>
         </div>
+    </div>
     </div>
     </div>
  

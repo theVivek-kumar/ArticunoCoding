@@ -30,6 +30,11 @@
 
 .flex-row{
   display: flex;
+  gap: 2rem;
+ 
+}
+.margine{
+    margin-top: 4rem;
 }
 
 .center{
@@ -58,8 +63,22 @@
   gap: var(--xs);
 }
 
-
-
 .pad-xl{
   padding: 4rem;
+}
+.shipping-style{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.main-container{
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+}
+.flex-row-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
