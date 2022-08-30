@@ -1,5 +1,4 @@
 import React from 'react'
-import { AiOutlineArrowLeft } from 'react-icons/ai';
 import '../LoginForm/LoginForm.css';
 function LoginForm() {
   return (

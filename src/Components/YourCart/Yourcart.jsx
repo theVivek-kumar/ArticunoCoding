@@ -12,7 +12,7 @@ function Yourcart() {
         </div>
         <div className='flex-row list-tab'>
             <div className='image'>
-            <img src="/Images/man.png" alt="image" className="sq-img" />
+            <img src="/Images/man.png" alt='' className="sq-img"/>
             </div>
             <div className='text'>
                 <p>T-Shirt</p>
@@ -27,7 +27,7 @@ function Yourcart() {
         </div>
         <div className='flex-row list-tab'>
             <div >
-            <img src="/Images/man.png" alt="image" className="sq-img" />
+            <img src="/Images/man.png" alt=''  className="sq-img" />
             </div>
             <div className='text'>
                 <p>T-Shirt</p>
