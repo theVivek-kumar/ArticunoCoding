@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Toast } from '../Toast/Toast';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import '../Btn-base/btn.css';
 import '../ShippingComp/Shipping.css'
@@ -14,10 +15,9 @@ function Btn() {
       name: "Articuno Coding LLP",
       description: " WE offer high end solutions for your business",
       handler: function (response) {
-        // //   alert(response.razorpay_payment_id);
-        // Toast({ type: "success", msg: "Payment Successful🎉" });
-        // dispatch({ type: "CART", payload: [] });
-        // navigate("/products");
+          alert(response.razorpay_payment_id);
+        Toast({ type: "success", msg: "Payment Successful🎉" });
+     
       },
       prefill: {
         name: "vivek kumar",
