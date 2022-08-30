@@ -9,7 +9,7 @@ function Btn() {
     var options = {
       key: "rzp_test_gya6abqDZ5NINZ",
       key_secret: "jqkjgTT2WXGxtaTsk4hVC4RW",
-      amount:  15400.00,
+      amount:  1540.00,
       currency: "INR",
       name: "Articuno Coding LLP",
       description: " WE offer high end solutions for your business",

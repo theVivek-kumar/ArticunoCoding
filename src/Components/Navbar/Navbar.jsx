@@ -10,7 +10,7 @@ function Navbar() {
         <div className='navbar-content-style'>
 
        <div className='logo-name-class-header'>
-        <img className='logo-img' src='./Images/logo.png'/>
+        <img className='logo-img' alt='' src='./Images/logo.png'/>
         <div className='header-logo-name'><span style={{color: "#FFC300"}}>E-</span> <p>Shop</p></div>
 
     </div>
