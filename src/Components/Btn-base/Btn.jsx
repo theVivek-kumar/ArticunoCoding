@@ -1,5 +1,5 @@
 import React from 'react';
-import { Toast } from '../Toast/Toast';
+// import { Toast } from '../Toast/Toast';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import '../Btn-base/btn.css';
 import '../ShippingComp/Shipping.css'
@@ -16,7 +16,7 @@ function Btn() {
       description: " WE offer high end solutions for your business",
       handler: function (response) {
           alert(response.razorpay_payment_id);
-        Toast({ type: "success", msg: "Payment Successful🎉" });
+        //Toast({ type: "success", msg: "Payment Successful🎉" });
      
       },
       prefill: {
